@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-item.component.css']
 })
 export class UserItemComponent implements OnInit {
+  name:string; //CREATED A NEW PROPERTY CALLED NAME
 
-  constructor() { }
+  constructor() {
+
+    this.name="Felipe"; //set a new name
+   }
 
   ngOnInit() {
   }
